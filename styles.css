@@ -33,15 +33,12 @@ body {
 
 .body-left,
 body-right {
-	padding: 2%;
+	padding: 0%;
 }
-.body-right {
-	color: gray;
+
+input {
 	border: none;
-	margin-left: 2px;
-	margin-right: 5px;
-	text-align: center;
-	text-decoration: underline gray;
+	border-bottom: 1px grey solid;
 }
 
 .body-left {
@@ -49,18 +46,23 @@ body-right {
 	font-family: "Dancing Script";
 	font-size: 17px;
 }
+.body-right {
+	margin-top: 30px;
+}
 
 .postcard-footer {
 	text-align: center;
 }
 
 button {
-	background-color: darkgray;
+	background-color: darkgrey;
 	padding: 5px;
 	border-radius: 20px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.postcard-footer :hover {
+	background-color: grey;
+}
 h1 {
 	font-family: "Protest Guerrilla";
 }
